@@ -1,0 +1,37 @@
+.box {
+  transform: rotate(20deg); }
+
+.box {
+  width: 200px;
+  padding: 50px;
+  margin: 100px auto;
+  border: 1px solid blue;
+  background: black;
+  border-radius: 5px;
+  cursor: pointer; }
+  .box h2 {
+    color: blue;
+    text-align: center; }
+  .box:hover {
+    background: silver;
+    color: #000000; }
+
+.box-3 {
+  color: teal !important; }
+
+.box-4 {
+  color: teal !important; }
+
+.one-1 {
+  margin-left: 20px; }
+
+.one-2 {
+  margin-left: 40px; }
+
+.one-3 {
+  margin-left: 60px; }
+
+.one-4 {
+  margin-left: 80px; }
+
+/*# sourceMappingURL=styles.css.map */

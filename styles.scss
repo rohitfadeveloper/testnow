@@ -1,0 +1,57 @@
+%box-rotate{
+    transform:rotate(20deg);
+}
+
+$color: 5;
+
+.box{
+    width: 200px;
+    padding: 50px;
+    margin: 100px auto;
+    border:1px solid blue;
+    background: rgba(0,0,0,1);
+    border-radius: 5px;
+    cursor: pointer;
+    @extend %box-rotate;
+    
+    h2{
+        @if $color<10 {
+            color: blue;
+        }
+
+        @else if $color>10 {
+            color:green;
+        }
+
+        @else if $color==5 {
+            color:orange;
+        }
+        
+        text-align:center;
+    }
+
+
+    &:hover{
+        background: silver;
+        color: #000000;
+    }
+}
+
+$p: 3;
+
+@while $p<5{
+
+    .box-#{$p} 
+    {
+        color:teal !important;
+        $p:$p + 1;
+    }
+}
+
+@for $i from 1 through 4{
+
+  .one-#{$i}{
+      margin-left:20px * $i;
+  }    
+
+}
