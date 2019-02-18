@@ -5,6 +5,8 @@ html,body{
     min-height: 100%;
 }
 
+$font-size:12px;
+
 %box-rotate{
     transform:rotate(20deg);
 }
@@ -74,5 +76,7 @@ $p: 3;
     h3{
         color: #fff;
         text-align: center;
+        letter-spacing: 1px;
+        font-size: $font-size;
     }
 }

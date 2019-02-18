@@ -48,6 +48,8 @@ html, body {
 
 .footer h3 {
   color: #fff;
-  text-align: center; }
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 12px; }
 
 /*# sourceMappingURL=styles.css.map */
