@@ -1,3 +1,10 @@
+html,body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
 %box-rotate{
     transform:rotate(20deg);
 }
@@ -54,4 +61,18 @@ $p: 3;
       margin-left:20px * $i;
   }    
 
+}
+
+.footer{
+    position:absolute;
+    bottom: 0;
+    background-color:#000;
+    width: 100%;
+}
+
+.footer {
+    h3{
+        color: #fff;
+        text-align: center;
+    }
 }
