@@ -2,7 +2,7 @@
     transform:rotate(20deg);
 }
 
-$color: 5;
+$color: 6;
 
 .box{
     width: 200px;
@@ -23,7 +23,7 @@ $color: 5;
             color:green;
         }
 
-        @else if $color==5 {
+        @else if $color==6 {
             color:orange;
         }
         
